@@ -1,0 +1,157 @@
+.hero-title-image {
+    top: 200px;
+    width: 233px;
+    height: 333px;
+    right: 73%;
+}
+
+p {
+    font-size: 18px;
+}
+
+.cocktail {
+    text-align: right;
+    border-right: solid 1px #6c6d70;
+    padding-right: 45px;
+}
+
+.ceremony {
+    text-align: center !important;
+    border: none !important;
+}
+
+.lunch {
+    text-align: left !important;
+    border-left: solid 1px #6c6d70;
+}
+
+#details {
+    border: none;
+}
+
+#address {
+    font-size: 18px;
+    text-transform: lowercase;
+}
+
+.smallTitle {
+    font-family: weddingFont;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+.bigTitle {
+    font-family: 'Dancing Script', cursive;
+    text-transform: lowercase;
+    font-size: 80px;
+    padding-bottom: 20px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: weddingFont;
+    src: url(../font/ARACNE-ULTRA-CONDENSED_regular.otf);
+}
+
+@font-face {
+    font-family: weddingFontTitles;
+    src: url(../font/ARACNE-ULTRA-CONDENSED_light.otf);
+}
+
+.navClick {
+    font-family: weddingFont !important;
+}
+
+#storyTime {
+    padding-top: 10px !important;
+}
+
+#ceremony {
+    PADDING-LEFT: 9px;
+}
+
+#party {
+    padding-left: 45px;
+}
+
+#parking {
+    text-align: center;
+    PADDING-LEFT: 25px;
+}
+
+#attire {
+    text-align: right;
+}
+
+#fun {
+    text-align: left;
+    padding-left: 65px;
+}
+
+.smallestTitles {
+    font-family: "Didot";
+    color: black;
+}
+
+
+/* mobile only */
+
+@media screen and (max-width:780px) {
+    .hero-title-image {
+        top: 200px;
+    }
+    #beverages {
+        text-align: center !important;
+        width: 100%;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    #ceremony {
+        text-align: center !important;
+        width: 100%;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    #party {
+        text-align: center !important;
+        width: 100%;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    #parking {
+        text-align: center !important;
+        width: 100%;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    #fun {
+        text-align: center !important;
+        width: 100%;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    #attire {
+        text-align: center !important;
+        width: 100%;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+#myModal {
+    padding-top: 50px;
+}
+
+#detailTitle {
+    PADDING-LEFT: 9px;
+}
+
+
+/* desktop only */
+
+@media screen and (min-width:610px) {
+    #our-story-title {
+        margin-bottom: -25px;
+    }
+}
