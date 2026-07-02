@@ -2,6 +2,11 @@
 
 Static single-page site for **aaronandlynn.com**, served from GitHub Pages.
 
+## Live
+
+- 🌐 **Site:** https://aaronandlynn.com
+- 📄 **GitHub Pages URL:** https://ak--47.github.io/aaron-and-lynn/
+
 ## Deploy
 
 Push to `main` → the [Pages workflow](.github/workflows/pages.yml) publishes the repo root
